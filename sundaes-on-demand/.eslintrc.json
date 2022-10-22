@@ -1,6 +1,10 @@
 {
-  "plugins": ["testing-library", "jest-dom"],
+  "plugins": ["react","testing-library", "jest-dom"],
   "extends": [
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "standard",
+    "eslint-config-prettier",
     "react-app",
     "react-app/jest",
     "plugin:testing-library/react",
